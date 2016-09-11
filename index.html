@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sea</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+	<meta charset="utf-8"> 
+	<meta name="description" content="Analog Sea cloud computing">
+	<meta name="keywords" content="cloud,server,network,storage">
+<meta name="author" content="Hege Refsnes">	
+	<!-- need to make webcrawler and screenread friendly -->
+</head>
+<body>
+<img src="logo.png" alt="Analog Sea Logo">
+
+	<div class=signUpBlock>
+		<div>Sign up</div>
+		 <form action="/signup" method='post'>
+		 	<label for="email">Email</label>
+		 	<input type="email" placeholder="foo@bar.com" name="email" id="email" required="email">
+		 	<label for="password">Password</label>
+		 	<input type="password" placeholder="1234passw0rd" name="password" id="password" required="text">
+		 	<button type="submit">Sign Up</button>
+		 </form>
+		 <a class="greyUnder" href="/forgot-password/new">Forgot password?</a>
+
+
+
+
+		 <!-- <form class='demo-form' action="/signup" method='post'>
+		   <label for="email">Email</label>
+      <input type="email" name='email' id='email' /> -->
+	</div>
+	<div class="white">Already have an account? <a class ="white" href="/login">Log in</a></div>
+</body>
+</html>

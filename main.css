@@ -1,0 +1,85 @@
+body{
+	background-color:#3f94e7; 
+	width:1141;
+}
+
+
+
+img{
+	height:35px;
+	width:165.22px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	margin-top: 35px;
+	margin-bottom:35px;
+}
+.signUpBlock{
+	width:320px;
+	background-color: white;
+	height: 400px;
+	padding-top: 60px;
+	padding-right:40px;
+	padding-left:40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div{
+	text-align: center;
+	display: block;
+	font-size:38px;
+	font-family: 'Arimo', sans-serif;
+}
+label{
+font-size:16px;
+font-family: 'Arimo', sans-serif;
+display:block;
+text-align: left;
+
+}
+input{
+height:21px;
+border:2px solid #e7e7e7;
+padding:15px ;
+font-family: 'Arimo', sans-serif;
+font:#a9a9a9;
+font-size:15px;
+border-radius: 7px;
+width:286px;
+margin-top:17px ;
+margin-bottom:17px;
+}
+
+button{
+	background-color: #65c470;
+	border:none;
+	color:white;
+	padding: 15px 32px;
+	text-align: center;
+	font-size:16px;
+	width:320px;
+	height: 55px;
+}
+button:hover{
+	background-color: #53a05c;
+}
+
+.greyUnder{
+	color:#a9a9a9;
+	font-family: 'Arimo', sans-serif;
+	font-size:15px;
+	border-bottom:.5px dotted #a9a9a9;
+	text-decoration: none;
+}
+.white{
+	margin-top: 20px;
+	color:white;
+	font-family: 'Arimo', sans-serif;
+	font-size:17px;
+	font-weight: bold;
+}
+/*65c470 the green
+
+a9a9a9 inner grey text
+
+e7e7e7 lighter grey borders*/
